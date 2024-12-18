@@ -2,6 +2,8 @@
 
 Brings Canvas what if Grades into powerschool
 
+Feature request and Bug reports are more than welcome, please open an issue.
+
 ![demo](/image.png)
 
 ## Instructions
