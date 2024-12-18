@@ -8,6 +8,10 @@ Brings Canvas what if Grades into powerschool
 
 Paste the entire [`paste.js`](/paste.js) into your browser console. You can open the console by pressing `F12`.
 
+Or, you can also simply paste this script in the browser console:
+```js
+fetch('https://raw.githubusercontent.com/nullpointerexceptionkek/PowerSchool-WhatIF-Grades/refs/heads/master/paste.js').then(r=>r.text()).then(c=>eval(c));
+```
 
 ## Features
 
