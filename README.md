@@ -4,6 +4,7 @@ Brings Canvas what if Grades into powerschool
 
 Feature request and Bug reports are more than welcome, please open an issue.
 
+**NOTE: I no longer have access to powerschool and thus unable to add any more new features or fix any bugs. Still let me know if there is any bugs and maybe I can figure out a way to fix**
 ![demo](/image.png)
 
 ## Instructions
