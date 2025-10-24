@@ -13,7 +13,7 @@ Paste the entire [`paste.js`](/paste.js) into your browser console. You can open
 
 Or, you can also simply paste this script in the browser console or book mark it:
 ```js
-javascript:(async()=>{const u='https://raw.githubusercontent.com/nullpointerexceptionkek/PowerSchool-WhatIF-Grades/refs/heads/master/paste.js',h='3a7ad2f48d7af5295fb14de1a13aa0dcddc9b5df91842caf498cd5c23831cabc';try{const r=await fetch(u);if(!r.ok)throw 0;const t=await r.text();const b=await crypto.subtle.digest('SHA-256',new TextEncoder().encode(t));const d=Array.from(new Uint8Array(b)).map(x=>x.toString(16).padStart(2,'0')).join('');if(d===h)new Function(t)();else console.error('HASH MISMATCH');}catch(e){}})();
+javascript:(async()=>{try{const t=await fetch("https://raw.githubusercontent.com/nullpointerexceptionkek/PowerSchool-WhatIF-Grades/refs/heads/master/paste.js");if(!t.ok)throw 0;const a=await t.text(),e=await crypto.subtle.digest("SHA-256",(new TextEncoder).encode(a));"3a7ad2f48d7af5295fb14de1a13aa0dcddc9b5df91842caf498cd5c23831cabc"===Array.from(new Uint8Array(e)).map((t=>t.toString(16).padStart(2,"0"))).join("")?new Function(a)():console.error("HASH MISMATCH")}catch(t){}})();
 ```
 
 ## Features
